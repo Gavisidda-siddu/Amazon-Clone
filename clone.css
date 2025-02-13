@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+
+body{
+    background-color:rgb(198, 240, 255);
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.navbar{
+    height:60px;
+    background-color:#0F1111;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+    margin:5px 0 0 5px;
+    /* margin-left:5px;
+    margin-top:5px; */
+}
+
+.logo{
+    background-image:url("amazon.jpg");
+    background-size:cover;
+    height:50px;
+    border-radius:10px;
+}
+
+.nav-address{
+    height:50px;
+    width:100px;
+    margin-left:50px;
+    font-size:12px;
+    font-style:arial;
+    margin-top:10px;
+}
+
+.add1{
+    margin-left:10px;
+    height:14px;
+    font-size: 12px;
+    color:#edd8d8cc;
+}
+.add2{
+    height: 16px;
+    font-size: 14px;
+    margin-left:2px;
+    color:#ffff;
+}
+
+.add-icon{
+    height:18px;
+    width:15px;
+    display:flex;
+    margin-top:3px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width:620px;
+    height:40px;
+    border-radius:4px;
+    background-color:orange;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border: none;
+}
+
+.search-input{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+
+.sign-in{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.sign1{
+    height: 14px;
+    font-size: 12px;
+}
+
+.sign2{
+    height: 15px;
+    font-size: 14px;
+}
+
+.Returns{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.r1{
+    height: 14px;
+    font-size: 12px;
+}
+
+.r2{
+    height: 15px;
+    font-size: 14px;
+}
+
+.cart{
+    margin-left:20px;
+    display:flex;
+}
+
+.c1{
+    margin-top:20px;
+}
+
+.c2{
+   margin-right:25px;
+   margin-top:35px;
+}
+
+.panel{
+    height: 39px;
+    background-color: #252929;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bar{
+    margin-left:5px;
+    margin-top:10px;
+}
+
+.mx{
+    margin-top:10px;
+}
+
+.sell{
+    margin-top:10px;
+}
+
+.best-seller{
+    margin-top:10px;
+}
+
+.today{
+    margin-top:10px;
+}
+
+.mobiles{
+    margin-top:10px;
+}
+.service{
+    margin-top:10px;
+}
+
+.Electronics{
+    margin-top:10px;
+}
+
+.kitchen{
+    margin-top:10px;
+}
+
+.prime{
+    margin-top:10px;
+}
+
+.pay{
+    margin-top:10px;
+}
+
+/* background section */
+.background{
+    background-image: url(top.jpg);
+    height:450px;
+    background-size:cover;
+}
+.shop-section{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:-150px;
+    height:1340px;
+    width:95%;
+    margin-left:2%;
+    justify-content: space-between;
+}
+.box{
+    background-color:white;
+    height:420px;
+    width:280px;
+    margin-top: 20px;
+}
+
+.image1{
+    background-image: url(image1.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+.image2{
+    background-image: url(image2.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+.image3{
+    background-image: url(image3.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+.image4{
+    background-image: url(image4.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image51{
+    background-image: url(image51.jpg);
+    height:90px;
+    width: 120px;
+    background-size: cover;
+    margin:0 3px 3px 15px;
+}
+.image52{
+    background-image: url(image52.jpg);
+    height:90px;
+    width: 120px;
+    background-size: cover;
+    margin:0 10px 3px 3px;
+}
+.image53{
+    background-image: url(image53.jpg);
+    height:90px;
+    width: 120px;
+    background-size: cover;
+    margin:0 3px 3px 15px;
+}
+.image54{
+    background-image: url(image54.jpg);
+    height:90px;
+    width: 120px;
+    background-size: cover;
+    margin:0 10px 3px 3px;
+}
+
+.image6{
+    background-image: url(image6.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+.image7{
+    background-image: url(image7.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+.image8{
+    background-image: url(image8.jpg);
+    height:276px;
+    background-size: cover;
+    margin:0 20px 0 20px;
+}
+
+.panel1{
+    background-color: #252929;
+    height:50px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel2{
+    background-color: #0F1111;
+    height:350px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul h3{
+    margin-top:30px;
+}
+
+ul a{
+    display: block;
+    margin-top:10px;
+    color:gainsboro;
+    
+}
